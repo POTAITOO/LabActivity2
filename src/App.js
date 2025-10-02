@@ -1,21 +1,26 @@
-import logo from './logo.svg';
+import luffy from './luffy.webp';
+import zoro from './zoro.webp';
+import sanji from './sanji.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to the Straw Hat Pirates Page</h1>
+        <img src={zoro} className="App-logo" alt="logo" />
+        <img src={luffy} className="App-logo" alt="logo" />
+        <img src={sanji} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Straw Hat Pirates
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://onepiece.fandom.com/wiki/One_Piece"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn About The Crew
         </a>
       </header>
     </div>
