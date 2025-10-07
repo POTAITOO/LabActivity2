@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to the Straw Hat Pirates Page</h1>
-        <img src={zoro} className="App-logo" alt="logo" />
-        <img src={luffy} className="App-logo" alt="logo" />
-        <img src={sanji} className="App-logo" alt="logo" />
+        <img src={zoro} className="img-logo" alt="logo" />
+        <img src={luffy} className="img-logo" alt="logo" />
+        <img src={sanji} className="img-logo" alt="logo" />
         <p>
           Straw Hat Pirates
         </p>
